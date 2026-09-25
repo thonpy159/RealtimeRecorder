@@ -1,0 +1,24 @@
+{
+  "asr_engine": "reazon",
+  "asr_threads": 2,
+  "vad": {
+    "threshold": 0.35,
+    "silence_ms": 800,
+    "min_speech_ms": 180,
+    "pre_roll_ms": 500,
+    "post_roll_ms": 200,
+    "max_speech_s": 20
+  },
+  "dictionary": {
+    "エーアイ": "AI",
+    "エスエヌエス": "SNS",
+    "ユーアールエル": "URL",
+    "ユーチューブ": "YouTube",
+    "グーグル": "Google"
+  },
+  "ui": {
+    "font_size": 14,
+    "auto_scroll": true
+  },
+  "asr_queue_size": 32
+}

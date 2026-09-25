@@ -1,0 +1,7 @@
+PySide6>=6.8,<7
+PyAudioWPatch>=0.2.12.7,<0.3
+sherpa-onnx>=1.12,<2
+numpy>=2,<3
+soxr>=0.5,<2
+pytest>=8,<10
+faster-whisper>=1.2,<2

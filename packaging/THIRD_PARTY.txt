@@ -1,0 +1,27 @@
+Third-party components (unmodified upstream binary wheels/models)
+
+Python 3.11.9 (PSF): https://www.python.org/downloads/release/python-3119/
+PySide6 / Shiboken6 / Qt 6.11.2 (LGPLv3 option):
+  https://code.qt.io/cgit/pyside/pyside-setup.git/tag/?h=v6.11.2
+  https://download.qt.io/official_releases/QtForPython/pyside6/PySide6-6.11.2-src/
+  https://download.qt.io/archive/qt/6.11/6.11.2/submodules/
+  https://doc.qt.io/qtforpython-6/licenses.html
+  DLLs and plugins remain dynamically loaded in _internal. They can be replaced
+  with compatible modified builds. Debugging modifications to LGPL components
+  and reverse engineering for that purpose are not restricted by this package.
+  The LGPL and GPL texts, component notices, and version inventory are in LICENSES.
+NumPy 2.4.6 (BSD + bundled components): https://github.com/numpy/numpy/tree/v2.4.6
+python-soxr 1.1.0 / libsoxr (LGPL 2.1): https://github.com/dofuuz/python-soxr/tree/v1.1.0
+  Corresponding libsoxr sources: https://sourceforge.net/projects/soxr/files/
+PyAudioWPatch 0.2.12.8 / PortAudio (MIT): https://github.com/s0d3s/PyAudioWPatch
+sherpa-onnx 1.13.8 (Apache 2.0): https://github.com/k2-fsa/sherpa-onnx/tree/v1.13.8
+ONNX Runtime (MIT; bundled by sherpa-onnx): https://github.com/microsoft/onnxruntime
+ReazonSpeech k2-v2 (Apache 2.0): https://huggingface.co/reazon-research/reazonspeech-k2-v2
+Silero VAD (MIT): https://github.com/snakers4/silero-vad
+Model conversion / test audio source: https://github.com/k2-fsa/sherpa-onnx/releases/tag/asr-models
+PyInstaller bootloader (GPL with application distribution exception):
+  https://pyinstaller.org/en/stable/license.html
+
+These licenses apply to their respective components, not automatically to the
+application as a whole. Source distribution must accompany public redistribution
+as required by the relevant licenses; preserve these notices and the source links.
